@@ -42,6 +42,6 @@ public class Produto {
 
     @Override
     public String toString() {
-        return "Produto: " + " | ID: " + id + " | TIPO: " + tipo + " | DESCRIÇÃO: " + descricao + " | PREÇO: " + preco + " |\n";
+        return "\nProduto: " + " | ID: " + id + " | TIPO: " + tipo + " | DESCRIÇÃO: " + descricao + " | PREÇO: " + preco + " |\n";
     }
 }
